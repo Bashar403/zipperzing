@@ -13,5 +13,11 @@ going to work on my readme.md and plan my project through the research i did on 
 1854
 Created a README.md file and updateded it with my plan.
 
-1847
+1914
+Created a Controller, and View for the about us page and put some temporary text about the company, also added a Navigation Link.
+
+1917
+Tested the new About us page and everything works as expected.
+
+
 
