@@ -19,5 +19,8 @@ Created a Controller, and View for the about us page and put some temporary text
 1917
 Tested the new About us page and everything works as expected.
 
+1926
+Created a Product class in Models. and added the needed attributes
+
 
 
