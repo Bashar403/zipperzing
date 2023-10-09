@@ -10,3 +10,8 @@ linked my local project to github to insure it wont be lost and to document my w
 1840
 going to work on my readme.md and plan my project through the research i did on the weekend
 
+1854
+Created a README.md file and updateded it with my plan.
+
+1847
+
