@@ -31,6 +31,8 @@ updated the data file and added a name space because startup.cs was giving me an
 2007
 updated startup file and appsettings file 
 
+2017
+renamed my data file to zipperzingContext and updated startup and appsettings accordingly
 
 
 

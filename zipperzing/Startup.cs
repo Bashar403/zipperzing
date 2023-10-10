@@ -28,8 +28,8 @@ namespace zipperzing
         {
             services.AddControllersWithViews();
 
-            services.AddDbContext<AppDbContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("AppDbContext")));
+            services.AddDbContext<zipperzingContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("zipperzingContext")));
 
         }
 
