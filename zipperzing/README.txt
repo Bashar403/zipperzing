@@ -64,6 +64,10 @@ included a form for the search functuality where it will fillter by matarial.
 1130
 incountered an error {InvalidOperationException:} while adding the dropdown search function.
 
+1240
+fixed the issue, the names in the productsController didnt match the naming of the properties in the models folder
+
+
 
 
 
