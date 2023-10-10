@@ -20,9 +20,17 @@ namespace zipperzing.Controllers
         }
 
         // GET: Products
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.Products.ToListAsync());
+            var product = from p in _context.Products       //creates a LINQ query to select the movies:
+                          select p;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                product = product.Where(s => s.Material.Contains(searchString));
+            }
+
+            return View(await product.ToListAsync());
         }
 
         // GET: Products/Details/5

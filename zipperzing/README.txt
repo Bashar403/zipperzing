@@ -1,4 +1,5 @@
-﻿2023-10-09 1835 EST
+﻿
+2023-10-09 1835 EST			
 Created my ASP.NET Core 3.1 application with the assigned product (Zipper) using Visual Studio 2019
 
 1838
@@ -52,6 +53,14 @@ also added 10 products to the seedData and updated my program.cs
 2133
 Tested the app all products are displayed and the program is working 
 also tested the edit and delete.
+
+2023-10-10 1026 EST	
+updated the ProductsController bu adding a search feature where in the url you can search up for
+zipper by matarial
+
+1032
+included a form for the search functuality where it will fillter by matarial.
+
 
 
 
