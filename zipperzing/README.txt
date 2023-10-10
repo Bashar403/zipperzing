@@ -37,6 +37,12 @@ renamed my data file to zipperzingContext and updated startup and appsettings ac
 2027
 added a scaffolded item with the name ProductsController
 
+2031
+ran the following commands:
+		Add-Migration InitialCreate
+		Update-Database
+
+
 
 
 
