@@ -42,6 +42,19 @@ ran the following commands:
 		Add-Migration InitialCreate
 		Update-Database
 
+2041 
+tested and everything works i need to add this to the url /Products/Index
+
+2128
+Added a SeedData file, updated the orginal code to work with my app 
+also added 10 products to the seedData and updated my program.cs
+
+2133
+Tested the app all products are displayed and the program is working 
+also tested the edit and delete.
+
+
+
 
 
 
