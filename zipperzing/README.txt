@@ -70,6 +70,9 @@ fixed the issue, the names in the productsController didnt match the naming of t
 1305
 added validation so when entering a new product it will check the data.
 
+1311
+updated the nav bar so when the zipperzing is click it will direct you to products
+
 
 
 
