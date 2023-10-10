@@ -20,10 +20,10 @@ namespace zipperzing.Controllers
         }
 
         // GET: Products
-        public async Task<IActionResult> Index(string searchString)
+        /* public async Task<IActionResult> Index(string searchString)
         {
             var product = from p in _context.Products       //creates a LINQ query to select the movies:
-                          select p;
+                         select p;
 
             if (!String.IsNullOrEmpty(searchString))
             {
@@ -31,6 +31,35 @@ namespace zipperzing.Controllers
             }
 
             return View(await product.ToListAsync());
+        } */
+
+        public async Task<IActionResult> Index(string productType, string searchString)
+        {
+            // Use LINQ to get list of genres.
+            IQueryable<string> productQuery = from p in _context.Products
+                                              orderby p.Type
+                                            select p.Type;
+
+            var products = from p in _context.Products
+                           select p;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                products = products.Where(s => s.Material.Contains(searchString));
+            }
+
+            if (!string.IsNullOrEmpty(productType))
+            {
+                products = products.Where(x => x.Type == productType);
+            }
+
+            var ProducTypeVM = new ProductTypeViewModel
+            {
+                Type = new SelectList(await productQuery.Distinct().ToListAsync()),
+                products = await products.ToListAsync()
+            };
+
+            return View(ProducTypeVM);
         }
 
         // GET: Products/Details/5

@@ -61,6 +61,9 @@ zipper by matarial
 1032
 included a form for the search functuality where it will fillter by matarial.
 
+1130
+incountered an error {InvalidOperationException:} while adding the dropdown search function.
+
 
 
 
