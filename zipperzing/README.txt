@@ -67,6 +67,9 @@ incountered an error {InvalidOperationException:} while adding the dropdown sear
 1240
 fixed the issue, the names in the productsController didnt match the naming of the properties in the models folder
 
+1305
+added validation so when entering a new product it will check the data.
+
 
 
 
