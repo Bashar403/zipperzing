@@ -22,5 +22,13 @@ Tested the new About us page and everything works as expected.
 1926
 Created a Product class in Models. and added the needed attributes
 
+1954
+Added A Database Context.
+
+1958
+updated the data file and added a name space because startup.cs was giving me and error
+
+
+
 
 
