@@ -34,6 +34,10 @@ updated startup file and appsettings file
 2017
 renamed my data file to zipperzingContext and updated startup and appsettings accordingly
 
+2027
+added a scaffolded item with the name ProductsController
+
+
 
 
 
