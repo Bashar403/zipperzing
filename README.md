@@ -41,9 +41,6 @@ Zipperzing offers a wide range of zippers, each with various attributes, includi
 
 - Deploy the application to Azure for public access.
 
-## Additional Documentation
-
-- Flowcharts and diagrams can be found in the `docs` directory.
 
 Please refer to the GitHub repository for the latest updates and codebase.
 
