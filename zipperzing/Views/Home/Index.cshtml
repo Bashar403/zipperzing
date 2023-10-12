@@ -2,7 +2,69 @@
     ViewData["Title"] = "ZipperZing";
 }
 
-<div class="text-center">
-    <h1 class="Welcome to Zipperzing!</h1>
-    <p>Explore our amazing zipper collection.</p>
+<div class="home">
+    <div>
+        <h2>Welcome to Zipperzing</h2>
+
+        <p>Discover the world of innovative zippers at Zipperzing. We're more than just fasteners; we're a fashion statement. Explore the Zipperzing difference:</p>
+    </div>
 </div>
+
+<div class="grid-container">
+    <h4>1. Quality Zippers</h4>
+    <p>Zipperzing products are crafted with uncompromising quality. Our zippers are rigorously tested to withstand the test of time, just like our commitment to excellence.</p>
+
+    <h4>2. Style and Function</h4>
+    <p>Our zippers blend seamlessly with your creations, whether it's a couture gown, a handbag, or a practical jacket. They're more than just fasteners; they bring style and elegance.</p>
+
+    <h4>3. Eco-Friendly Choices</h4>
+    <p>We care for our planet. Zipperzing offers eco-friendly choices, from sustainable materials to eco-conscious manufacturing processes, making a positive impact on the world.</p>
+
+    <h4>4. Customer-Centric Approach</h4>
+    <p>At Zipperzing, our customers are at the heart of everything we do. We listen to your needs and provide zippers tailored to your specific requirements.</p>
+</div>
+
+<p class="Last">Join us in the journey of innovation, craftsmanship, and style. Experience the Zipperzing difference today!</p>
+
+<style>
+    .home {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+        gap: 20rem;
+    }
+
+    h2 {
+        margin-bottom: 2rem;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+        .grid-container h4 {
+            font-weight: bold;
+        }
+
+        .grid-container p {
+            margin-top: 5px;
+        }
+
+        .grid-container div {
+            padding: 15px;
+            margin: 10px;
+        }
+
+    .Last {
+        font-weight: bold;
+        font-style: italic;
+        margin-top: 20px;
+        text-align: center;
+        color: sienna;
+    }
+</style>
+

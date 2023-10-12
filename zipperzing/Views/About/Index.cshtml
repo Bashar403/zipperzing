@@ -2,5 +2,90 @@
     ViewData["Title"] = "About Us";
 }
 
-<h1>About Us</h1>
-<p>Welcome to Zipperzing! We are a fictional company specializing in zippers.</p>
+<div class="aboutUs">
+    <div>
+        <h2>About Zipperzing</h2>
+
+        <p>Welcome to Zipperzing, a company that's not just in the business of zippers but in the business of innovation and style. We stand out from the crowd, and here's why:</p>
+    </div>
+    <div class="Ceo">
+        <h2>Our CEO Bashar</h2>
+        <img src="~/images/Me (2).jpg" alt="CEO Bashar">
+    </div>
+</div>
+
+
+<div class="grid-container">
+    <h4>1. Visionary Leadership</h4>
+    <p>At Zipperzing, our journey begins with our visionary CEO, Bashar. His relentless passion for innovation and dedication to quality drive us to explore new horizons in the world of fasteners. Bashar's leadership sets the tone for creativity and excellence at Zipperzing.</p>
+
+    <h4>2. The Zipperzing Touch</h4>
+    <p>What sets Zipperzing apart is the Zipperzing Touch. It's the fusion of craftsmanship, creativity, and a sprinkle of magic that makes our zippers more than just fasteners; they're a fashion statement. Our zippers don't just hold things together; they bring style and elegance to your creations.</p>
+
+    <h4>3. Unrivaled Quality</h4>
+    <p>Zipperzing products are crafted to perfection. We don't compromise on quality. Our zippers are rigorously tested to withstand the test of time. When you choose Zipperzing, you're choosing products that stand the test of time, just like our commitment to quality.</p>
+
+    <h4>4. Eco-Friendly Choices</h4>
+    <p>Zipperzing cares for our planet. We take pride in offering eco-friendly choices to help protect the environment. From sustainable materials to eco-conscious manufacturing processes, we're making a positive impact on the world while keeping your projects stylish.</p>
+
+    <h4>5. Fashion and Function</h4>
+    <p>We believe that zippers should not only be functional but also an integral part of your fashion statement. Zipperzing zippers are designed with an eye for style, blending seamlessly with your creations, whether it's a couture gown, a handbag, or a practical jacket.</p>
+
+    <h4>6. Customer-Centric Approach</h4>
+    <p>Our customers are at the heart of everything we do. We listen to your needs, understand your projects, and provide zippers tailored to your specific requirements. Your success is our success, and we are committed to helping you achieve your creative vision.</p>
+</div>
+
+
+<p class="Last">Zipperzing is not just a zipper manufacturer; we are a creative force that redefines the world of zippers. Join us in the journey of innovation, craftsmanship, and style. Discover the Zipperzing difference today!</p>
+
+<style>
+    .aboutUs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+        gap:20rem;
+    }
+    .Ceo{
+       text-align: center;
+    }
+
+    h2{
+        margin-bottom: 2rem;
+    }
+
+    img {
+        max-width: 300px;
+        border-radius: 50%;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        grid-gap: 20px; 
+    }
+
+        
+    .grid-container h4 {
+            font-weight: bold;
+        }
+
+    .grid-container p {
+            margin-top: 5px;
+        }
+
+       
+    .grid-container div {
+            padding: 15px; 
+            margin: 10px; 
+        }
+
+    .Last {
+        font-weight: bold;
+        font-style: italic;
+        margin-top: 20px;
+        text-align:center;
+        color:sienna;
+    }
+</style>

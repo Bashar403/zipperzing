@@ -75,6 +75,28 @@ updated the nav bar so when the zipperzing is click it will direct you to produc
 
 
 
+2023-10-12	1312
+
+updated the main css for website, added a font, changed background color, 
+edited the about us and styled it 
+
+1314
+going to start working on the main page:
+
+1512
+updated the home page and styled similer to the about Us page,
+updated the brand name and changed the font of it,
+
+1513
+tested my app and everthing works as expected 
+
+1514
+will try to push my app to azure
+
+
+
+
+
 
 
 
