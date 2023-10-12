@@ -93,6 +93,9 @@ tested my app and everthing works as expected
 1514
 will try to push my app to azure
 
+1519 
+updated the footer so the project copyright is alowed up to date
+
 
 
 
